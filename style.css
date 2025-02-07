@@ -1,0 +1,380 @@
+
+.header_container {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+}
+#title_small {
+    flex: 0 1 auto;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+#title_large {
+    flex: 0 1 auto;
+    font-family: "Homemade Apple", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
+    text-wrap: nowrap;
+    margin-top: 40px;
+    line-height: 160px;
+    color:#2fa9c7;
+}
+#menu_item {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-wrap: nowrap;
+}
+.menu {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    top: 5%;
+    right: 5%;
+    z-index: 2;
+}
+.title {
+    display: inline-flex;
+    flex-direction: column;
+    position: absolute;
+    flex: 0 1 auto;
+    top: 80px;
+    left: 80px;
+    z-index: 2;
+}
+.header_image {
+    background-size: cover;
+}
+.profilePic {
+    flex: 0 1 auto;
+    min-width: 100px;
+    max-width: 300px;
+  border-radius: 50%;
+  align-self: center;
+}
+.profilPic_container {
+    display: flex;
+    justify-content: center;
+    flex: 0 1 auto;
+}
+.Biography_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0 1 auto;
+}
+#SubSection_Header {
+    font-family: "Homemade Apple", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    text-wrap: nowrap;
+    margin-bottom: 40px;
+    line-height: 60px;
+    color:#2fa9c7;
+    text-align: center;
+}
+li {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+}
+#Biography {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    
+}
+.AboutMe {
+    margin-top: 6rem;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+}
+.Services {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 6rem;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5rem;
+}
+.Services_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0 1 auto;
+    z-index: 2;
+}
+.ServicePic_container {
+    display: flex;
+    justify-content: center;
+    flex: 0 1 auto;
+}
+.ServicesPic {
+    flex: 0 1 auto;
+    min-width: 150px;
+    max-width: 350px;
+    align-self: center;
+}
+.footer_background {
+    background-color: #2fa9c7;
+    width: 100%;
+}
+.footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #2fa9c7;
+}
+a:link, a:visited, a:active {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+}
+a {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    margin-inline: 2em;
+}
+p {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+@media (max-width: 600px){
+    .Services {
+      display: flex;
+     flex-direction: column;
+     justify-content: center;
+    }
+    #SubSection_Header {
+        font-family: "Homemade Apple", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+        text-wrap: nowrap;
+        margin-bottom: 40px;
+        line-height: 60px;
+        color:#2fa9c7;
+        text-align: center;
+    }
+    #title_small {
+        flex: 0 1 auto;
+        font-family: "Montserrat", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    
+    #title_large {
+        flex: 0 1 auto;
+        font-family: "Homemade Apple", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 40px;
+        text-wrap: nowrap;
+        margin-top: 20px;
+        line-height: 40px;
+        color:#2fa9c7;
+   }
+  .title {
+        display: inline-flex;
+        flex-direction: column;
+        position: absolute;
+        flex: 0 1 auto;
+        top: 5%;
+        left: 5%;
+        z-index: 2;
+    }
+    #menu_item {
+        font-family: "Montserrat", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 10px;
+        text-wrap: nowrap;
+    }
+    .menu {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 300px;
+        top: 2%;
+        right: 2%;
+        z-index: 2;
+    }
+    
+}
+@media (max-width: 768px) and (min-width: 601px){
+    .Services {
+      display: flex;
+     flex-direction: column;
+     justify-content: center;
+    }
+    #title_small {
+        flex: 0 1 auto;
+        font-family: "Montserrat", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+    
+    #title_large {
+        flex: 0 1 auto;
+        font-family: "Homemade Apple", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 60px;
+        text-wrap: nowrap;
+        margin-top: 25px;
+        line-height: 60px;
+        color:#2fa9c7;
+   }
+  .title {
+        display: inline-flex;
+        flex-direction: column;
+        position: absolute;
+        flex: 0 1 auto;
+        top: 7%;
+        left: 7%;
+        z-index: 2;
+    }
+    #menu_item {
+        font-family: "Montserrat", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15px;
+        text-wrap: nowrap;
+    }
+    .menu {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 350px;
+        top: 3%;
+        right: 3%;
+        z-index: 2;
+    }
+}
+@media (max-width: 991px) and (min-width: 769px) {
+    #title_small {
+        flex: 0 1 auto;
+        font-family: "Montserrat", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    
+    #title_large {
+        flex: 0 1 auto;
+        font-family: "Homemade Apple", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 80px;
+        text-wrap: nowrap;
+        margin-top: 40px;
+        line-height: 80px;
+        color:#2fa9c7;
+   }
+  .title {
+        display: inline-flex;
+        flex-direction: column;
+        position: absolute;
+        flex: 0 1 auto;
+        top: 10%;
+        left: 10%;
+        z-index: 2;
+    }
+    #menu_item {
+        font-family: "Montserrat", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15px;
+        text-wrap: nowrap;
+    }
+    .menu {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 400px;
+        top: 5%;
+        right: 5%;
+        z-index: 2;
+    }
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+    #title_small {
+        flex: 0 1 auto;
+        font-family: "Montserrat", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+    
+    #title_large {
+        flex: 0 1 auto;
+        font-family: "Homemade Apple", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 110px;
+        text-wrap: nowrap;
+        margin-top: 40px;
+        line-height: 110px;
+        color:#2fa9c7;
+   }
+  .title {
+        display: inline-flex;
+        flex-direction: column;
+        position: absolute;
+        flex: 0 1 auto;
+        top: 10%;
+        left: 10%;
+        z-index: 2;
+    }
+    #menu_item {
+        font-family: "Montserrat", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        text-wrap: nowrap;
+    }
+    .menu {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 450px;
+        top: 5%;
+        right: 5%;
+        z-index: 2;
+    }
+}
